@@ -357,6 +357,13 @@ img {
   cursor: pointer;
   margin-left: auto;
 }
+.contact__table {
+  margin: 0 auto;
+}
+.contact__table td {
+  width: 20rem;
+  text-align: center;
+}
 
 /* ===== FOOTER =====*/
 .footer {

@@ -375,6 +375,13 @@ img{
         cursor: pointer;
         margin-left: auto;
     }
+    &__table{
+        margin: 0 auto;
+        td {
+            width: 20rem;
+            text-align: center;
+        }
+    }
 }
 
 /* ===== FOOTER =====*/
