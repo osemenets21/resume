@@ -311,7 +311,7 @@
       </section>
 
       <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
+      <!-- <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
 
         <table class="contact__table">
@@ -339,7 +339,19 @@
             </tr>
           </tbody>
         </table>
-      </section>
+      </section> -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="#" class="contact__form" id="form">
+                <input type="text" name="name" placeholder="Name" class="contact__input _req">
+                <input type="email" name="email" placeholder="Email" class="contact__input _req _email">
+                <textarea name="content" cols="0" rows="10" class="contact__input _req"></textarea>
+                <input type="submit" value="Send" class="contact__button button">
+            </form>
+        </div>
+    </section>
     </main>
 
     <!--===== FOOTER =====-->
